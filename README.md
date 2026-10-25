@@ -33,16 +33,6 @@
 
 ---
 
-### 🕹️ Arcade Telemetry: Pac-Man Runner
-
-<div align="center">
-  <img src="./assets/pacman.svg" alt="Pac-Man Sysadmin Runner" width="100%" />
-</div>
-
-<br/>
-
----
-
 ### 🛠️ Skills &amp; Technical Arsenal
 
 <div align="center">
@@ -177,5 +167,10 @@ Tertarik berkolaborasi untuk proyek infrastruktur jaringan, administrasi server 
 <br/>
 
 <sub>Disusun dengan standar tata letak bersih dan arsitektur token modern • <b>Amirudin</b> • Lampung, Indonesia</sub>
+
+<br/>
+<br/>
+
+<img src="./assets/pacman.svg" alt="GitHub Contributions" width="100%" />
 
 </div>
