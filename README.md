@@ -6,13 +6,13 @@
 <br/>
 
 <a href="https://github.com/mamoy321">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=2800&pause=1000&color=38BDF8&center=true&vCenter=true&width=800&lines=%E2%96%B8+Linux+Sysadmin+%26+Network+Infrastructure+Specialist;%E2%96%B8+Debian+%2F+Ubuntu+Server+Hardening+%26+Orchestration;%E2%96%B8+MikroTik+RouterOS+%26+VLAN+Subnetting+Architecture;%E2%96%B8+FTTH+Fiber+Optic+Splicing+%26+Field+Telecom+Tech;%E2%96%B8+Information+Systems+Student+%E2%80%A2+Based+in+Lampung%2C+ID" alt="Amirudin Dynamic Typing Headline" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=2800&pause=1000&color=38BDF8&center=true&vCenter=true&width=800&lines=%E2%96%B8+Linux+Sysadmin+%26+Network+Infrastructure+Specialist;%E2%96%B8+Ubuntu+Server+Hardening+%26+Service+Orchestration;%E2%96%B8+MikroTik+RouterOS+%26+VLAN+Subnetting+Architecture;%E2%96%B8+FTTH+Fiber+Optic+Splicing+%26+Field+Telecom+Tech;%E2%96%B8+Information+Systems+Student+%E2%80%A2+Based+in+Lampung%2C+ID" alt="Amirudin Dynamic Typing Headline" />
 </a>
 
 <br/>
 <br/>
 
-[![Status](https://img.shields.io/badge/System_Status-OPERATIONAL-10b981?style=flat-square&logo=linux&logoColor=white)](https://github.com/mamoy321)
+[![Status](https://img.shields.io/badge/System_Status-OPERATIONAL-10b981?style=flat-square&logo=ubuntu&logoColor=white)](https://github.com/mamoy321)
 [![Focus](https://img.shields.io/badge/Domain-Sysadmin_%26_Networking-2563eb?style=flat-square&logo=serverfault&logoColor=white)](https://github.com/mamoy321)
 [![Location](https://img.shields.io/badge/Location-Lampung%2C_Indonesia-334155?style=flat-square&logo=googlemaps&logoColor=white)](https://maps.google.com)
 [![GitHub](https://img.shields.io/badge/GitHub-mamoy321-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/mamoy321)
@@ -23,30 +23,46 @@
 
 ---
 
-### 🖥️ `whoami` &amp; System Specs
+### 🖥️ `whoami` &amp; Telemetry Specs
 
-```bash
-amirudin@sysadmin-node:~$ neofetch --profile
-       .---.           amirudin@sysadmin-node
-      /     \          ----------------------
-     | () () |         OS          : Debian GNU/Linux / Ubuntu Server / RouterOS
-      \  _  /          Kernel      : Linux 6.x LTS (x86_64)
-       /   \           Role        : Linux System Administrator & Network Engineer
-      |     |          Education   : S1 Sistem Informasi (Lampung) • Ex-TKJ SMK PGRI 2 Ponorogo
-     /       \         Shell       : bash / zsh / RouterOS CLI
-    / /     \ \        Uptime      : 99.98% (Ready for Work & Collaborative Projects)
-   /_/       \_\       Location    : Lampung, Indonesia
-   ( \       / )       Services    : Nginx, BIND9, SSH, Systemd, Cron, FTTH
-    \_\_..._/_/        Core Focus  : Server Infrastructure, Routing/Switching, ISP Tech
-```
+<div align="center">
+  <img src="./assets/whoami.svg" alt="whoami System Telemetry" width="100%" />
+</div>
+
+<br/>
+
+---
+
+### 🕹️ Arcade Telemetry: Pac-Man Runner
+
+<div align="center">
+  <img src="./assets/pacman.svg" alt="Pac-Man Sysadmin Runner" width="100%" />
+</div>
+
+<br/>
 
 ---
 
 ### 🛠️ Skills &amp; Technical Arsenal
 
+<div align="center">
+  <p><b>Core Operating Systems &amp; Network Infrastructure</b></p>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=ubuntu,debian,linux,bash,nginx,cisco,wireshark&theme=dark" alt="Server & Networking Stack" />
+  </a>
+  <br/>
+  <br/>
+  <p><b>Web Development, Database &amp; Dev Environment</b></p>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=js,html,css,php,mysql,git,github,vscode&theme=dark" alt="Development & Tooling Stack" />
+  </a>
+</div>
+
+<br/>
+
 #### 1. Linux &amp; Server Administration
+[![Ubuntu](https://img.shields.io/badge/Ubuntu_Server_24.04-E95420?style=flat-square&logo=ubuntu&logoColor=white)](https://ubuntu.com/)
 [![Debian](https://img.shields.io/badge/Debian-A81D33?style=flat-square&logo=debian&logoColor=white)](https://www.debian.org/)
-[![Ubuntu](https://img.shields.io/badge/Ubuntu_Server-E95420?style=flat-square&logo=ubuntu&logoColor=white)](https://ubuntu.com/)
 [![Bash](https://img.shields.io/badge/GNU_Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)](https://www.gnu.org/software/bash/)
 [![Nginx](https://img.shields.io/badge/Nginx_Reverse_Proxy-009639?style=flat-square&logo=nginx&logoColor=white)](https://nginx.org/)
 [![Systemd](https://img.shields.io/badge/Systemd-1e293b?style=flat-square&logo=linux&logoColor=white)](https://systemd.io/)
@@ -70,16 +86,6 @@ amirudin@sysadmin-node:~$ neofetch --profile
 [![Wireless PTP](https://img.shields.io/badge/Wireless_Outdoor_5GHz_PTP-15803d?style=flat-square&logo=signal&logoColor=white)](https://github.com/mamoy321)
 [![ONT/ONU](https://img.shields.io/badge/ONT_/_ONU_Client_Provisioning-475569?style=flat-square&logo=modx&logoColor=white)](https://github.com/mamoy321)
 
-#### 4. Web Development, Database &amp; Tooling
-[![JavaScript](https://img.shields.io/badge/JavaScript_ES6+-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/)
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](https://developer.mozilla.org/)
-[![PHP](https://img.shields.io/badge/PHP_Backend-777BB4?style=flat-square&logo=php&logoColor=white)](https://www.php.net/)
-[![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=mariadb&logoColor=white)](https://mariadb.org/)
-[![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)](https://www.mysql.com/)
-[![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)](https://git-scm.com/)
-[![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)](https://code.visualstudio.com/)
-
 ---
 
 ### 📂 Interactive Deep Dives
@@ -93,7 +99,7 @@ amirudin@sysadmin-node:~$ neofetch --profile
   * Segmentasi network menggunakan VLAN 802.1Q dan inter-VLAN routing terisolasi.
   * Pengamanan port forwarding, firewall filtering, NAT masquerade, serta simple queue QoS.
 * **Linux Server Cluster**:
-  * Instalasi dan konfigurasi headless OS Debian dan Ubuntu Server.
+  * Instalasi dan konfigurasi headless OS Ubuntu Server 24.04 LTS dan Debian.
   * Nginx web server deployment dengan reverse proxy, SSL/TLS certbot, dan cache tuning.
   * Resolusi nama domain lokal menggunakan BIND9 DNS server.
   * Otomasi backup basis data dan rotasi log terjadwal via Bash scripts dan cron service.

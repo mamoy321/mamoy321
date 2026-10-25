@@ -5,10 +5,6 @@
       <stop offset="50%" stop-color="#0d1527" />
       <stop offset="100%" stop-color="#060a12" />
     </linearGradient>
-    <linearGradient id="accent-cyan" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#38bdf8" />
-      <stop offset="100%" stop-color="#2563eb" />
-    </linearGradient>
     <linearGradient id="rack-grad" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#161f36" />
       <stop offset="100%" stop-color="#0f172a" />
@@ -43,6 +39,28 @@
         from { stroke-dashoffset: 40; }
         to { stroke-dashoffset: 0; }
       }
+      @keyframes ubuntuGlitch {
+        0%, 88%, 100% {
+          transform: translate(0, 0);
+          filter: drop-shadow(0 0 2px rgba(233, 84, 32, 0.4));
+        }
+        89% {
+          transform: translate(-3px, 1px);
+          filter: drop-shadow(-3px 0 #00ffff) drop-shadow(3px 0 #e95420);
+        }
+        91% {
+          transform: translate(3px, -1px);
+          filter: drop-shadow(3px 0 #00ffff) drop-shadow(-3px 0 #ff0055);
+        }
+        93% {
+          transform: translate(-2px, 2px);
+          filter: drop-shadow(-2px 0 #00ffff);
+        }
+        95% {
+          transform: translate(0, 0);
+          filter: drop-shadow(0 0 4px #e95420);
+        }
+      }
       .terminal-cursor {
         animation: cursorBlink 0.9s infinite;
       }
@@ -58,6 +76,10 @@
       .packet-line {
         stroke-dasharray: 6 6;
         animation: packetFlow 1.2s linear infinite;
+      }
+      .ubuntu-glitch-logo {
+        animation: ubuntuGlitch 3.5s infinite ease-in-out;
+        transform-origin: center;
       }
     </style>
   </defs>
@@ -95,10 +117,26 @@
     <rect x="0" y="0" width="168" height="22" rx="4" fill="#1e293b" />
     <text x="8" y="15" fill="#38bdf8" font-size="10.5" class="mono-text" font-weight="700" letter-spacing="1">IT INFRASTRUCTURE</text>
 
-    <!-- Main Title -->
-    <text x="0" y="58" fill="#f8fafc" font-size="34" class="sans-text" font-weight="800" letter-spacing="-0.5">
-      AMIRUDIN
-    </text>
+    <!-- Main Title with Ubuntu Glitch Logo -->
+    <g transform="translate(0, 52)">
+      <text x="0" y="0" fill="#f8fafc" font-size="34" class="sans-text" font-weight="800" letter-spacing="-0.5">
+        AMIRUDIN
+      </text>
+
+      <!-- Ubuntu Logo with Glitch Effect -->
+      <g class="ubuntu-glitch-logo" transform="translate(205, -12)">
+        <circle cx="0" cy="0" r="18" fill="#E95420" />
+        <circle cx="0" cy="0" r="8" fill="none" stroke="#ffffff" stroke-width="2.6" />
+        <!-- 3 heads -->
+        <circle cx="-10.5" cy="0" r="2.5" fill="#ffffff" />
+        <circle cx="5.2" cy="-9.1" r="2.5" fill="#ffffff" />
+        <circle cx="5.2" cy="9.1" r="2.5" fill="#ffffff" />
+        <!-- cutout lines -->
+        <line x1="-5" y1="0" x2="-16" y2="0" stroke="#E95420" stroke-width="1.8" />
+        <line x1="2.5" y1="-4.3" x2="8" y2="-13.8" stroke="#E95420" stroke-width="1.8" />
+        <line x1="2.5" y1="4.3" x2="8" y2="13.8" stroke="#E95420" stroke-width="1.8" />
+      </g>
+    </g>
 
     <!-- Role description -->
     <text x="0" y="82" fill="#38bdf8" font-size="14" class="mono-text" font-weight="600">
@@ -117,10 +155,10 @@
       <text x="14" y="46" fill="#94a3b8" font-size="11" class="mono-text">● network.service - Production Core Router &amp; Server Cluster</text>
       
       <!-- Status output line 2 -->
-      <text x="14" y="65" fill="#94a3b8" font-size="11" class="mono-text">  Active: <tspan fill="#10b981" font-weight="700">active (running)</tspan> | Uptime: 99.98% | MTU: 1500</text>
+      <text x="14" y="65" fill="#94a3b8" font-size="11" class="mono-text">  Active: <tspan fill="#10b981" font-weight="700">active (running)</tspan> | Host: Ubuntu Server 24.04</text>
 
       <!-- Status output line 3 -->
-      <text x="14" y="84" fill="#64748b" font-size="11" class="mono-text">  Stack : Debian • MikroTik • FTTH • Nginx • VLAN</text>
+      <text x="14" y="84" fill="#64748b" font-size="11" class="mono-text">  Stack : Ubuntu • MikroTik • FTTH • Nginx • VLAN</text>
       <rect x="368" y="73" width="7" height="13" fill="#38bdf8" class="terminal-cursor" />
     </g>
   </g>
@@ -196,11 +234,11 @@
       </g>
     </g>
 
-    <!-- Unit 3: 2U Linux Server Host -->
+    <!-- Unit 3: 2U Ubuntu Server Host -->
     <g transform="translate(26, 120)">
       <rect width="243" height="52" rx="4" fill="url(#rack-grad)" stroke="#334155" stroke-width="1" />
       <text x="10" y="25" fill="#e2e8f0" font-size="10" class="mono-text" font-weight="700">SRV-PROD01</text>
-      <text x="10" y="37" fill="#64748b" font-size="8" class="mono-text">Debian GNU/Linux</text>
+      <text x="10" y="37" fill="#E95420" font-size="8.5" class="mono-text" font-weight="600">Ubuntu Server 24.04</text>
 
       <!-- Drive Caddy Bays -->
       <g transform="translate(90, 8)">
