@@ -1,0 +1,268 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-grad-light" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="60%" stop-color="#f8fafc" />
+      <stop offset="100%" stop-color="#f1f5f9" />
+    </linearGradient>
+    <linearGradient id="rack-grad-light" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#f1f5f9" />
+    </linearGradient>
+    <pattern id="grid-dots-light" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#94a3b8" opacity="0.35" />
+    </pattern>
+    <style>
+      .mono-text {
+        font-family: ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace;
+      }
+      .sans-text {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      }
+      @keyframes cursorBlink {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+      @keyframes statusPulseLight {
+        0%, 100% { opacity: 1; filter: drop-shadow(0 0 3px #16a34a); }
+        50% { opacity: 0.4; filter: drop-shadow(0 0 1px #16a34a); }
+      }
+      @keyframes ledBlinkSlow {
+        0%, 100% { fill: #0284c7; }
+        50% { fill: #94a3b8; }
+      }
+      @keyframes ledBlinkFast {
+        0%, 100% { fill: #16a34a; }
+        50% { fill: #86efac; }
+      }
+      @keyframes packetFlowLight {
+        from { stroke-dashoffset: 40; }
+        to { stroke-dashoffset: 0; }
+      }
+      @keyframes ubuntuGlitchMiniLight {
+        0%, 86%, 100% {
+          transform: translate(0, 0);
+          filter: drop-shadow(0 0 2px rgba(234, 88, 12, 0.4));
+        }
+        87% {
+          transform: translate(-2px, 1px);
+          filter: drop-shadow(-2px 0 #0284c7) drop-shadow(2px 0 #ea580c);
+        }
+        89% {
+          transform: translate(2px, -1px);
+          filter: drop-shadow(2px 0 #0284c7) drop-shadow(-2px 0 #dc2626);
+        }
+        91% {
+          transform: translate(-1px, 2px);
+          filter: drop-shadow(-2px 0 #0284c7);
+        }
+        93% {
+          transform: translate(0, 0);
+          filter: drop-shadow(0 0 3px #ea580c);
+        }
+      }
+      .terminal-cursor {
+        animation: cursorBlink 0.9s infinite;
+      }
+      .pulse-dot-light {
+        animation: statusPulseLight 2s infinite ease-in-out;
+      }
+      .led-slow {
+        animation: ledBlinkSlow 1.4s infinite ease-in-out;
+      }
+      .led-fast {
+        animation: ledBlinkFast 0.7s infinite ease-in-out;
+      }
+      .packet-line-light {
+        stroke-dasharray: 6 6;
+        animation: packetFlowLight 1.2s linear infinite;
+      }
+      .ubuntu-mini-glitch-light {
+        animation: ubuntuGlitchMiniLight 3s infinite ease-in-out;
+      }
+    </style>
+  </defs>
+
+  <!-- Card Background -->
+  <rect width="900" height="320" rx="16" fill="url(#bg-grad-light)" stroke="#cbd5e1" stroke-width="1.5" />
+  
+  <!-- Subtle Grid Pattern -->
+  <rect width="900" height="320" rx="16" fill="url(#grid-dots-light)" />
+
+  <!-- Terminal Window Bar -->
+  <rect width="900" height="42" rx="16" fill="#f8fafc" />
+  <rect y="26" width="900" height="16" fill="#f8fafc" />
+  <line x1="0" y1="42" x2="900" y2="42" stroke="#e2e8f0" stroke-width="1" />
+
+  <!-- Window Dots -->
+  <circle cx="28" cy="21" r="6" fill="#ef4444" />
+  <circle cx="48" cy="21" r="6" fill="#f59e0b" />
+  <circle cx="68" cy="21" r="6" fill="#10b981" />
+
+  <!-- Terminal Tab Title -->
+  <text x="50%" y="26" text-anchor="middle" fill="#475569" font-size="12" class="mono-text" font-weight="600" letter-spacing="0.5">
+    amirudin@datacenter-core: ~ (sysadmin &amp; network engine)
+  </text>
+
+  <!-- Live Status Beacon (Top Right) -->
+  <g transform="translate(800, 21)">
+    <circle cx="0" cy="0" r="4.5" fill="#16a34a" class="pulse-dot-light" />
+    <text x="12" y="4" fill="#16a34a" font-size="11" class="mono-text" font-weight="700" letter-spacing="1">ONLINE</text>
+  </g>
+
+  <!-- Left Column: Branding & Terminal Info -->
+  <g transform="translate(40, 75)">
+    <!-- Sub-tag Group: IT Infrastructure + Ubuntu Server Badge -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="146" height="24" rx="4" fill="#e2e8f0" />
+      <text x="10" y="16" fill="#0369a1" font-size="10" class="mono-text" font-weight="700" letter-spacing="1">IT INFRASTRUCTURE</text>
+
+      <!-- Ubuntu Badge with Glitching Logo -->
+      <rect x="156" y="0" width="144" height="24" rx="4" fill="#fff7ed" stroke="#ea580c" stroke-width="1" />
+      <g transform="translate(170, 12)">
+        <g class="ubuntu-mini-glitch-light">
+          <circle cx="0" cy="0" r="6.5" fill="#E95420" />
+          <circle cx="0" cy="0" r="3" fill="none" stroke="#ffffff" stroke-width="1" />
+          <circle cx="-3.8" cy="0" r="1" fill="#ffffff" />
+          <circle cx="1.9" cy="-3.3" r="1.1" fill="#ffffff" />
+          <circle cx="1.9" cy="3.3" r="1.1" fill="#ffffff" />
+        </g>
+      </g>
+      <text x="184" y="16" fill="#ea580c" font-size="10.5" class="mono-text" font-weight="700" letter-spacing="0.5">UBUNTU 24.04</text>
+    </g>
+
+    <!-- Main Title (Deep Slate High-Contrast) -->
+    <text x="0" y="62" fill="#0f172a" font-size="34" class="sans-text" font-weight="800" letter-spacing="-0.5">
+      AMIRUDIN
+    </text>
+
+    <!-- Role description -->
+    <text x="0" y="86" fill="#0284c7" font-size="14" class="mono-text" font-weight="600">
+      Linux Sysadmin &amp; Network Engineer
+    </text>
+
+    <!-- Terminal Command Block -->
+    <g transform="translate(0, 106)">
+      <rect width="470" height="96" rx="8" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.2" />
+      
+      <!-- Command prompt line -->
+      <text x="14" y="24" fill="#16a34a" font-size="12" class="mono-text" font-weight="700">amirudin@node01:~$</text>
+      <text x="170" y="24" fill="#0f172a" font-size="12" class="mono-text">systemctl status network.service</text>
+
+      <!-- Status output line 1 -->
+      <text x="14" y="46" fill="#475569" font-size="11" class="mono-text">● network.service - Production Core Router &amp; Server Cluster</text>
+      
+      <!-- Status output line 2 -->
+      <text x="14" y="65" fill="#475569" font-size="11" class="mono-text">  Active: <tspan fill="#16a34a" font-weight="700">active (running)</tspan> | Host: Ubuntu Server 24.04</text>
+
+      <!-- Status output line 3 -->
+      <text x="14" y="84" fill="#64748b" font-size="11" class="mono-text">  Stack : Ubuntu • MikroTik • FTTH • Nginx • VLAN</text>
+      <rect x="368" y="73" width="7" height="13" fill="#0284c7" class="terminal-cursor" />
+    </g>
+  </g>
+
+  <!-- Right Column: Visual Datacenter Rack (Light Aluminum Frame) -->
+  <g transform="translate(560, 68)">
+    <rect x="0" y="0" width="295" height="225" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5" />
+    
+    <!-- Rack Rails -->
+    <rect x="6" y="8" width="12" height="209" rx="2" fill="#e2e8f0" />
+    <rect x="277" y="8" width="12" height="209" rx="2" fill="#e2e8f0" />
+
+    <!-- Mounting screw dots -->
+    <circle cx="12" cy="25" r="2" fill="#94a3b8" />
+    <circle cx="12" cy="75" r="2" fill="#94a3b8" />
+    <circle cx="12" cy="125" r="2" fill="#94a3b8" />
+    <circle cx="12" cy="175" r="2" fill="#94a3b8" />
+    <circle cx="283" cy="25" r="2" fill="#94a3b8" />
+    <circle cx="283" cy="75" r="2" fill="#94a3b8" />
+    <circle cx="283" cy="125" r="2" fill="#94a3b8" />
+    <circle cx="283" cy="175" r="2" fill="#94a3b8" />
+
+    <!-- Unit 1: Top Core Router -->
+    <g transform="translate(26, 16)">
+      <rect width="243" height="42" rx="4" fill="url(#rack-grad-light)" stroke="#cbd5e1" stroke-width="1" />
+      <text x="10" y="24" fill="#0f172a" font-size="10" class="mono-text" font-weight="700">CORE-RT01</text>
+      <text x="10" y="34" fill="#64748b" font-size="8" class="mono-text">RouterOS v7</text>
+      
+      <!-- Ethernet Ports -->
+      <g transform="translate(90, 10)">
+        <rect x="0" y="0" width="14" height="20" rx="2" fill="#f1f5f9" stroke="#94a3b8" stroke-width="0.8" />
+        <circle cx="7" cy="4" r="1.5" fill="#16a34a" class="led-fast" />
+        <rect x="18" y="0" width="14" height="20" rx="2" fill="#f1f5f9" stroke="#94a3b8" stroke-width="0.8" />
+        <circle cx="25" cy="4" r="1.5" fill="#16a34a" class="led-fast" />
+        <rect x="36" y="0" width="14" height="20" rx="2" fill="#f1f5f9" stroke="#94a3b8" stroke-width="0.8" />
+        <circle cx="43" cy="4" r="1.5" fill="#0284c7" class="led-slow" />
+        <rect x="54" y="0" width="14" height="20" rx="2" fill="#f1f5f9" stroke="#94a3b8" stroke-width="0.8" />
+        <circle cx="61" cy="4" r="1.5" fill="#16a34a" class="led-fast" />
+        <rect x="72" y="0" width="14" height="20" rx="2" fill="#f1f5f9" stroke="#94a3b8" stroke-width="0.8" />
+        <circle cx="79" cy="4" r="1.5" fill="#f59e0b" />
+        <!-- SFP+ Optical cage -->
+        <rect x="94" y="0" width="22" height="20" rx="2" fill="#f1f5f9" stroke="#0284c7" stroke-width="1" />
+        <circle cx="105" cy="4" r="2" fill="#0284c7" class="pulse-dot-light" />
+        <text x="105" y="16" text-anchor="middle" fill="#0284c7" font-size="7" class="mono-text">SFP+</text>
+      </g>
+    </g>
+
+    <!-- Unit 2: Managed Distribution Switch -->
+    <g transform="translate(26, 68)">
+      <rect width="243" height="42" rx="4" fill="url(#rack-grad-light)" stroke="#cbd5e1" stroke-width="1" />
+      <text x="10" y="24" fill="#0f172a" font-size="10" class="mono-text" font-weight="700">SW-DIST01</text>
+      <text x="10" y="34" fill="#64748b" font-size="8" class="mono-text">VLAN Trunking</text>
+      
+      <!-- Switch 8-Port Matrix -->
+      <g transform="translate(90, 11)">
+        <rect x="0" y="0" width="11" height="18" rx="1.5" fill="#f1f5f9" stroke="#94a3b8" stroke-width="0.7" />
+        <circle cx="5.5" cy="3" r="1.2" fill="#16a34a" />
+        <rect x="14" y="0" width="11" height="18" rx="1.5" fill="#f1f5f9" stroke="#94a3b8" stroke-width="0.7" />
+        <circle cx="19.5" cy="3" r="1.2" fill="#16a34a" />
+        <rect x="28" y="0" width="11" height="18" rx="1.5" fill="#f1f5f9" stroke="#94a3b8" stroke-width="0.7" />
+        <circle cx="33.5" cy="3" r="1.2" fill="#16a34a" />
+        <rect x="42" y="0" width="11" height="18" rx="1.5" fill="#f1f5f9" stroke="#94a3b8" stroke-width="0.7" />
+        <circle cx="47.5" cy="3" r="1.2" fill="#0284c7" />
+        <rect x="56" y="0" width="11" height="18" rx="1.5" fill="#f1f5f9" stroke="#94a3b8" stroke-width="0.7" />
+        <circle cx="61.5" cy="3" r="1.2" fill="#16a34a" />
+        <rect x="70" y="0" width="11" height="18" rx="1.5" fill="#f1f5f9" stroke="#94a3b8" stroke-width="0.7" />
+        <circle cx="75.5" cy="3" r="1.2" fill="#16a34a" />
+        <rect x="84" y="0" width="11" height="18" rx="1.5" fill="#f1f5f9" stroke="#94a3b8" stroke-width="0.7" />
+        <circle cx="89.5" cy="3" r="1.2" fill="#16a34a" />
+        <rect x="98" y="0" width="11" height="18" rx="1.5" fill="#f1f5f9" stroke="#94a3b8" stroke-width="0.7" />
+        <circle cx="103.5" cy="3" r="1.2" fill="#0284c7" />
+      </g>
+    </g>
+
+    <!-- Unit 3: 2U Ubuntu Server Host -->
+    <g transform="translate(26, 120)">
+      <rect width="243" height="52" rx="4" fill="url(#rack-grad-light)" stroke="#cbd5e1" stroke-width="1" />
+      <text x="10" y="25" fill="#0f172a" font-size="10" class="mono-text" font-weight="700">SRV-PROD01</text>
+      <text x="10" y="37" fill="#ea580c" font-size="8.5" class="mono-text" font-weight="600">Ubuntu Server 24.04</text>
+
+      <!-- Drive Caddy Bays -->
+      <g transform="translate(90, 8)">
+        <rect x="0" y="0" width="22" height="34" rx="2" fill="#f1f5f9" stroke="#94a3b8" stroke-width="0.8" />
+        <rect x="3" y="27" width="16" height="3" fill="#16a34a" class="led-fast" />
+        <rect x="26" y="0" width="22" height="34" rx="2" fill="#f1f5f9" stroke="#94a3b8" stroke-width="0.8" />
+        <rect x="29" y="27" width="16" height="3" fill="#16a34a" class="led-fast" />
+        <rect x="52" y="0" width="22" height="34" rx="2" fill="#f1f5f9" stroke="#94a3b8" stroke-width="0.8" />
+        <rect x="55" y="27" width="16" height="3" fill="#0284c7" class="led-slow" />
+        <rect x="78" y="0" width="22" height="34" rx="2" fill="#f1f5f9" stroke="#94a3b8" stroke-width="0.8" />
+        <rect x="81" y="27" width="16" height="3" fill="#16a34a" class="led-fast" />
+        <!-- Cooling Fan Grille -->
+        <rect x="106" y="0" width="30" height="34" rx="2" fill="#f1f5f9" stroke="#94a3b8" stroke-width="0.8" />
+        <line x1="110" y1="6" x2="132" y2="6" stroke="#94a3b8" stroke-width="1.2" />
+        <line x1="110" y1="12" x2="132" y2="12" stroke="#94a3b8" stroke-width="1.2" />
+        <line x1="110" y1="18" x2="132" y2="18" stroke="#94a3b8" stroke-width="1.2" />
+        <line x1="110" y1="24" x2="132" y2="24" stroke="#94a3b8" stroke-width="1.2" />
+        <line x1="110" y1="30" x2="132" y2="30" stroke="#94a3b8" stroke-width="1.2" />
+      </g>
+    </g>
+
+    <!-- Bottom Telemetry Indicator -->
+    <g transform="translate(26, 182)">
+      <rect width="243" height="30" rx="4" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="1" />
+      <text x="10" y="19" fill="#475569" font-size="9" class="mono-text">LINK: 10GbE SFP+</text>
+      <path d="M125 15 L225 15" stroke="#0284c7" stroke-width="2" class="packet-line-light" />
+      <circle cx="230" cy="15" r="3" fill="#16a34a" class="pulse-dot-light" />
+    </g>
+  </g>
+</svg>

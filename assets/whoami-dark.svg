@@ -1,0 +1,200 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="whoami-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080d1a" />
+      <stop offset="50%" stop-color="#0d1527" />
+      <stop offset="100%" stop-color="#050810" />
+    </linearGradient>
+    <pattern id="whoami-grid" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#334155" opacity="0.25" />
+    </pattern>
+    <style>
+      .mono-text {
+        font-family: ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace;
+      }
+      .sans-text {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      }
+      @keyframes whoamiCursor {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+      @keyframes whoamiPulse {
+        0%, 100% { opacity: 1; filter: drop-shadow(0 0 4px #10b981); }
+        50% { opacity: 0.4; filter: drop-shadow(0 0 1px #10b981); }
+      }
+      @keyframes ubuntuGlitchCenter {
+        0%, 86%, 100% {
+          transform: translate(0, 0);
+          filter: drop-shadow(0 0 5px rgba(233, 84, 32, 0.4));
+        }
+        87% {
+          transform: translate(-3px, 1px);
+          filter: drop-shadow(-3px 0 #00ffff) drop-shadow(3px 0 #e95420);
+        }
+        89% {
+          transform: translate(3px, -1px);
+          filter: drop-shadow(3px 0 #00ffff) drop-shadow(-3px 0 #ff0055);
+        }
+        91% {
+          transform: translate(-1px, 2px);
+          filter: drop-shadow(-2px 0 #00ffff);
+        }
+        93% {
+          transform: translate(0, 0);
+          filter: drop-shadow(0 0 6px #e95420);
+        }
+      }
+      .terminal-cursor {
+        animation: whoamiCursor 0.9s infinite;
+      }
+      .status-pulse {
+        animation: whoamiPulse 2s infinite ease-in-out;
+      }
+      .ubuntu-glitch-center {
+        animation: ubuntuGlitchCenter 3s infinite ease-in-out;
+      }
+    </style>
+  </defs>
+
+  <!-- Container Box -->
+  <rect width="900" height="360" rx="16" fill="url(#whoami-bg)" stroke="#1e293b" stroke-width="1.5" />
+  <rect width="900" height="360" rx="16" fill="url(#whoami-grid)" />
+
+  <!-- Window Header Bar -->
+  <rect width="900" height="42" rx="16" fill="#0f172a" />
+  <rect y="26" width="900" height="16" fill="#0f172a" />
+  <line x1="0" y1="42" x2="900" y2="42" stroke="#1e293b" stroke-width="1" />
+
+  <!-- Mac / Linux Terminal Window Dots -->
+  <circle cx="28" cy="21" r="6" fill="#ef4444" />
+  <circle cx="48" cy="21" r="6" fill="#f59e0b" />
+  <circle cx="68" cy="21" r="6" fill="#10b981" />
+
+  <!-- Terminal Title -->
+  <text x="50%" y="26" text-anchor="middle" fill="#94a3b8" font-size="12" class="mono-text" font-weight="600" letter-spacing="0.5">
+    amirudin@sysadmin-node: ~ whoami --neofetch (Ubuntu Server 24.04 LTS)
+  </text>
+
+  <!-- Top Right Live Status -->
+  <g transform="translate(780, 21)">
+    <circle cx="0" cy="0" r="4.5" fill="#10b981" class="status-pulse" />
+    <text x="12" y="4" fill="#10b981" font-size="11" class="mono-text" font-weight="700" letter-spacing="1">ONLINE</text>
+  </g>
+
+  <!-- Left Side: Neatly Contained Ubuntu Glitch Badge Box -->
+  <g transform="translate(35, 62)">
+    <rect width="225" height="276" rx="12" fill="#0b1120" stroke="#1e293b" stroke-width="1.2" />
+
+    <!-- Top Label -->
+    <text x="112.5" y="32" text-anchor="middle" fill="#38bdf8" font-size="10" class="mono-text" font-weight="700" letter-spacing="1.5">
+      DISTRO PLATFORM
+    </text>
+
+    <!-- Ubuntu Glitch Circle of Friends (Perfect Center at 112.5, 110) -->
+    <g transform="translate(112.5, 108)">
+      <g class="ubuntu-glitch-center">
+        <!-- Main Outer Circle -->
+        <circle cx="0" cy="0" r="42" fill="#E95420" />
+        
+        <!-- Inner Ring -->
+        <circle cx="0" cy="0" r="20" fill="none" stroke="#ffffff" stroke-width="5.5" />
+        
+        <!-- 3 Heads of Friends -->
+        <circle cx="-25" cy="0" r="5.8" fill="#ffffff" />
+        <circle cx="12.5" cy="-21.6" r="5.8" fill="#ffffff" />
+        <circle cx="12.5" cy="21.6" r="5.8" fill="#ffffff" />
+        
+        <!-- Cutout Gaps in Inner Ring -->
+        <line x1="-12" y1="0" x2="-38" y2="0" stroke="#E95420" stroke-width="4" />
+        <line x1="6" y1="-10.4" x2="19" y2="-33" stroke="#E95420" stroke-width="4" />
+        <line x1="6" y1="10.4" x2="19" y2="33" stroke="#E95420" stroke-width="4" />
+      </g>
+    </g>
+
+    <!-- Text info below logo -->
+    <text x="112.5" y="185" text-anchor="middle" fill="#f8fafc" font-size="14.5" class="sans-text" font-weight="800" letter-spacing="0.5">
+      UBUNTU SERVER
+    </text>
+    <text x="112.5" y="206" text-anchor="middle" fill="#E95420" font-size="12" class="mono-text" font-weight="700">
+      24.04 LTS Noble
+    </text>
+
+    <!-- Sub-status pill -->
+    <rect x="25" y="228" width="175" height="26" rx="6" fill="#1e293b" />
+    <circle cx="42" cy="241" r="3.5" fill="#10b981" class="status-pulse" />
+    <text x="54" y="245" fill="#94a3b8" font-size="10" class="mono-text" font-weight="600">KERNEL 6.8 x86_64</text>
+  </g>
+
+  <!-- Right Side: Neofetch Terminal Specs -->
+  <g transform="translate(275, 62)">
+    <rect width="590" height="276" rx="12" fill="#090e1a" stroke="#1e293b" stroke-width="1.2" />
+
+    <!-- Terminal Prompt & Command -->
+    <g transform="translate(24, 28)">
+      <text x="0" y="0" fill="#10b981" font-size="13" class="mono-text" font-weight="700">amirudin@sysadmin-node:~$</text>
+      <text x="210" y="0" fill="#f8fafc" font-size="13" class="mono-text">neofetch --telemetry</text>
+    </g>
+
+    <line x1="24" y1="40" x2="566" y2="40" stroke="#1e293b" stroke-width="1" />
+
+    <!-- Key-Value Specs Table -->
+    <g transform="translate(24, 65)" font-size="11.5" class="mono-text">
+      <!-- Line 1: OS -->
+      <text x="0" y="0" fill="#38bdf8" font-weight="700">OS</text>
+      <text x="95" y="0" fill="#64748b">:</text>
+      <text x="110" y="0" fill="#f8fafc">Ubuntu Server 24.04 LTS (x86_64) • RouterOS v7</text>
+
+      <!-- Line 2: Kernel & Uptime -->
+      <text x="0" y="22" fill="#38bdf8" font-weight="700">Kernel</text>
+      <text x="95" y="22" fill="#64748b">:</text>
+      <text x="110" y="22" fill="#94a3b8">Linux 6.8.0-generic <tspan fill="#64748b">|</tspan> Uptime: <tspan fill="#10b981" font-weight="600">99.98% Available</tspan></text>
+
+      <!-- Line 3: Role -->
+      <text x="0" y="44" fill="#38bdf8" font-weight="700">Role</text>
+      <text x="95" y="44" fill="#64748b">:</text>
+      <text x="110" y="44" fill="#f8fafc" font-weight="600">Linux System Administrator &amp; Network Engineer</text>
+
+      <!-- Line 4: Location -->
+      <text x="0" y="66" fill="#38bdf8" font-weight="700">Location</text>
+      <text x="95" y="66" fill="#64748b">:</text>
+      <text x="110" y="66" fill="#e2e8f0">Lampung, Indonesia <tspan fill="#64748b">(WIB / UTC+7)</tspan></text>
+
+      <!-- Line 5: Education -->
+      <text x="0" y="88" fill="#38bdf8" font-weight="700">Education</text>
+      <text x="95" y="88" fill="#64748b">:</text>
+      <text x="110" y="88" fill="#e2e8f0">S1 Sistem Informasi (Lampung) <tspan fill="#64748b">• Ex-TKJ SMK PGRI 2</tspan></text>
+
+      <!-- Line 6: Shell & Daemons -->
+      <text x="0" y="110" fill="#38bdf8" font-weight="700">Shell</text>
+      <text x="95" y="110" fill="#64748b">:</text>
+      <text x="110" y="110" fill="#94a3b8">/bin/bash, zsh <tspan fill="#64748b">|</tspan> Daemons: <tspan fill="#e2e8f0">Nginx, BIND9, SSH, systemd</tspan></text>
+
+      <!-- Line 7: Networking -->
+      <text x="0" y="132" fill="#38bdf8" font-weight="700">Network</text>
+      <text x="95" y="132" fill="#64748b">:</text>
+      <text x="110" y="132" fill="#e2e8f0">MikroTik RouterOS, VLAN 802.1Q, FTTH Splicing, OPM</text>
+
+      <!-- Line 8: Status -->
+      <text x="0" y="154" fill="#38bdf8" font-weight="700">Status</text>
+      <text x="95" y="154" fill="#64748b">:</text>
+      <text x="110" y="154" fill="#10b981" font-weight="700">● ACTIVE (RUNNING)</text>
+      <text x="260" y="154" fill="#64748b">Ready for IT &amp; Infrastructure Roles</text>
+      <rect x="525" y="142" width="7" height="14" fill="#38bdf8" class="terminal-cursor" />
+    </g>
+
+    <!-- Terminal ANSI Color Palette Strip -->
+    <g transform="translate(24, 246)">
+      <circle cx="8" cy="8" r="6.5" fill="#1e293b" />
+      <circle cx="28" cy="8" r="6.5" fill="#ef4444" />
+      <circle cx="48" cy="8" r="6.5" fill="#f97316" />
+      <circle cx="68" cy="8" r="6.5" fill="#eab308" />
+      <circle cx="88" cy="8" r="6.5" fill="#10b981" />
+      <circle cx="108" cy="8" r="6.5" fill="#06b6d4" />
+      <circle cx="128" cy="8" r="6.5" fill="#3b82f6" />
+      <circle cx="148" cy="8" r="6.5" fill="#8b5cf6" />
+      <circle cx="168" cy="8" r="6.5" fill="#ec4899" />
+      <text x="195" y="12" fill="#64748b" font-size="10" class="mono-text">ANSI 256-COLOR PALETTE</text>
+    </g>
+  </g>
+</svg>

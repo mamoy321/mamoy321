@@ -1,12 +1,20 @@
 <div align="center">
 
-<img src="./assets/banner.svg" alt="Amirudin - Linux Sysadmin &amp; Network Engineer" width="100%" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg">
+  <img src="./assets/banner-dark.svg" alt="Amirudin - Linux Sysadmin &amp; Network Engineer" width="100%" />
+</picture>
 
 <br/>
 <br/>
 
 <a href="https://github.com/mamoy321">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=2800&pause=1000&color=38BDF8&center=true&vCenter=true&width=800&lines=%E2%96%B8+Linux+Sysadmin+%26+Network+Infrastructure+Specialist;%E2%96%B8+Ubuntu+Server+Hardening+%26+Service+Orchestration;%E2%96%B8+MikroTik+RouterOS+%26+VLAN+Subnetting+Architecture;%E2%96%B8+FTTH+Fiber+Optic+Splicing+%26+Field+Telecom+Tech;%E2%96%B8+Information+Systems+Student+%E2%80%A2+Based+in+Lampung%2C+ID" alt="Amirudin Dynamic Typing Headline" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=2800&pause=1000&color=38BDF8&center=true&vCenter=true&width=800&lines=%E2%96%B8+Linux+Sysadmin+%26+Network+Infrastructure+Specialist;%E2%96%B8+Ubuntu+Server+Hardening+%26+Service+Orchestration;%E2%96%B8+MikroTik+RouterOS+%26+VLAN+Subnetting+Architecture;%E2%96%B8+FTTH+Fiber+Optic+Splicing+%26+Field+Telecom+Tech;%E2%96%B8+Information+Systems+Student+%E2%80%A2+Based+in+Lampung%2C+ID">
+    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=2800&pause=1000&color=0284C7&center=true&vCenter=true&width=800&lines=%E2%96%B8+Linux+Sysadmin+%26+Network+Infrastructure+Specialist;%E2%96%B8+Ubuntu+Server+Hardening+%26+Service+Orchestration;%E2%96%B8+MikroTik+RouterOS+%26+VLAN+Subnetting+Architecture;%E2%96%B8+FTTH+Fiber+Optic+Splicing+%26+Field+Telecom+Tech;%E2%96%B8+Information+Systems+Student+%E2%80%A2+Based+in+Lampung%2C+ID">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=2800&pause=1000&color=38BDF8&center=true&vCenter=true&width=800&lines=%E2%96%B8+Linux+Sysadmin+%26+Network+Infrastructure+Specialist;%E2%96%B8+Ubuntu+Server+Hardening+%26+Service+Orchestration;%E2%96%B8+MikroTik+RouterOS+%26+VLAN+Subnetting+Architecture;%E2%96%B8+FTTH+Fiber+Optic+Splicing+%26+Field+Telecom+Tech;%E2%96%B8+Information+Systems+Student+%E2%80%A2+Based+in+Lampung%2C+ID" alt="Amirudin Dynamic Typing Headline" />
+  </picture>
 </a>
 
 <br/>
@@ -26,7 +34,11 @@
 ### 🖥️ `whoami` &amp; Telemetry Specs
 
 <div align="center">
-  <img src="./assets/whoami.svg" alt="whoami System Telemetry" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/whoami-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/whoami-light.svg">
+    <img src="./assets/whoami-dark.svg" alt="whoami System Telemetry" width="100%" />
+  </picture>
 </div>
 
 <br/>
@@ -38,13 +50,21 @@
 <div align="center">
   <p><b>Core Operating Systems &amp; Network Infrastructure</b></p>
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=ubuntu,debian,linux,bash,nginx,cisco,wireshark&theme=dark" alt="Server & Networking Stack" />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ubuntu,debian,linux,bash,nginx,cisco,wireshark&theme=dark">
+      <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=ubuntu,debian,linux,bash,nginx,cisco,wireshark&theme=light">
+      <img src="https://skillicons.dev/icons?i=ubuntu,debian,linux,bash,nginx,cisco,wireshark&theme=dark" alt="Server & Networking Stack" />
+    </picture>
   </a>
   <br/>
   <br/>
   <p><b>Web Development, Database &amp; Dev Environment</b></p>
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=js,html,css,php,mysql,git,github,vscode&theme=dark" alt="Development & Tooling Stack" />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=js,html,css,php,mysql,git,github,vscode&theme=dark">
+      <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=js,html,css,php,mysql,git,github,vscode&theme=light">
+      <img src="https://skillicons.dev/icons?i=js,html,css,php,mysql,git,github,vscode&theme=dark" alt="Development & Tooling Stack" />
+    </picture>
   </a>
 </div>
 
@@ -132,17 +152,29 @@
   <table border="0">
     <tr>
       <td align="center" width="50%">
-        <img src="https://github-readme-stats.vercel.app/api?username=mamoy321&show_icons=true&theme=tokyonight&hide_border=true&bg_color=080d1a&title_color=38bdf8&text_color=94a3b8&icon_color=2563eb" width="100%" alt="Statistik GitHub Amirudin" />
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=mamoy321&show_icons=true&theme=tokyonight&hide_border=true&bg_color=080d1a&title_color=38bdf8&text_color=94a3b8&icon_color=2563eb">
+          <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=mamoy321&show_icons=true&theme=default&hide_border=true&bg_color=ffffff&title_color=0284c7&text_color=334155&icon_color=0284c7">
+          <img src="https://github-readme-stats.vercel.app/api?username=mamoy321&show_icons=true&theme=tokyonight&hide_border=true&bg_color=080d1a&title_color=38bdf8&text_color=94a3b8&icon_color=2563eb" width="100%" alt="Statistik GitHub Amirudin" />
+        </picture>
       </td>
       <td align="center" width="50%">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mamoy321&layout=compact&theme=tokyonight&hide_border=true&bg_color=080d1a&title_color=38bdf8&text_color=94a3b8" width="100%" alt="Bahasa Pemrograman Paling Sering Digunakan" />
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=mamoy321&layout=compact&theme=tokyonight&hide_border=true&bg_color=080d1a&title_color=38bdf8&text_color=94a3b8">
+          <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=mamoy321&layout=compact&theme=default&hide_border=true&bg_color=ffffff&title_color=0284c7&text_color=334155">
+          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mamoy321&layout=compact&theme=tokyonight&hide_border=true&bg_color=080d1a&title_color=38bdf8&text_color=94a3b8" width="100%" alt="Bahasa Pemrograman Paling Sering Digunakan" />
+        </picture>
       </td>
     </tr>
   </table>
   
   <br/>
   
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mamoy321&theme=tokyonight&hide_border=true&background=080d1a&ring=38bdf8&fire=38bdf8&currStreakLabel=38bdf8" width="70%" alt="GitHub Streak Stats" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=mamoy321&theme=tokyonight&hide_border=true&background=080d1a&ring=38bdf8&fire=38bdf8&currStreakLabel=38bdf8">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=mamoy321&theme=default&hide_border=true&background=ffffff&ring=0284c7&fire=ea580c&currStreakLabel=0284c7">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=mamoy321&theme=tokyonight&hide_border=true&background=080d1a&ring=38bdf8&fire=38bdf8&currStreakLabel=38bdf8" width="70%" alt="GitHub Streak Stats" />
+  </picture>
 </div>
 
 ---
@@ -171,6 +203,10 @@ Tertarik berkolaborasi untuk proyek infrastruktur jaringan, administrasi server 
 <br/>
 <br/>
 
-<img src="./assets/pacman.svg" alt="GitHub Contributions" width="100%" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/pacman-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/pacman-light.svg">
+  <img src="./assets/pacman-dark.svg" alt="GitHub Contributions" width="100%" />
+</picture>
 
 </div>
