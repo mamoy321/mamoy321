@@ -1,4 +1,3 @@
-2/
-3/
-porto/
-.agents/
+.DS_Store
+Thumbs.db
+*.tmp
