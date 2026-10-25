@@ -31,13 +31,11 @@
 
 ---
 
-### 🖥️ `whoami` &amp; Telemetry Specs
-
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/whoami-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/whoami-light.svg">
-    <img src="./assets/whoami-dark.svg" alt="whoami System Telemetry" width="100%" />
+    <img src="./assets/whoami-dark.svg" alt="whoami System Profile" width="100%" />
   </picture>
 </div>
 
@@ -45,7 +43,7 @@
 
 ---
 
-### 🛠️ Skills &amp; Technical Arsenal
+### 🛠️ Skills &amp; Arsenal
 
 <div align="center">
   <p><b>Core Operating Systems &amp; Network Infrastructure</b></p>
@@ -58,7 +56,7 @@
   </a>
   <br/>
   <br/>
-  <p><b>Web Development, Database &amp; Dev Environment</b></p>
+  <p><b>Web Development, Database &amp; Tooling</b></p>
   <a href="https://skillicons.dev">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=js,html,css,php,mysql,git,github,vscode&theme=dark">
@@ -146,7 +144,7 @@
 
 ---
 
-### 📊 Live GitHub Telemetry
+### 📊 GitHub Activity
 
 <div align="center">
   <table border="0">
@@ -204,9 +202,17 @@ Tertarik berkolaborasi untuk proyek infrastruktur jaringan, administrasi server 
 <br/>
 
 <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/contributions-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/contributions-light.svg">
+  <img src="./assets/contributions-dark.svg" alt="GitHub Contributions Interactive Grid" width="100%" />
+</picture>
+
+<br/>
+
+<picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/pacman-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/pacman-light.svg">
-  <img src="./assets/pacman-dark.svg" alt="GitHub Contributions" width="100%" />
+  <img src="./assets/pacman-dark.svg" alt="Pac-Man Arcade" width="100%" />
 </picture>
 
 </div>

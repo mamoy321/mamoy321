@@ -1,0 +1,436 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 185" width="100%" height="100%">
+  <defs>
+    <style>
+      .gh-text {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
+      }
+      .crumb-box {
+        transform-box: fill-box;
+        transform-origin: center;
+        transition: transform 0.65s cubic-bezier(0.55, 0.055, 0.675, 0.19), opacity 0.5s ease-out, filter 0.4s;
+        cursor: crosshair;
+      }
+      .crumb-box:hover {
+        transform: translateY(55px) rotate(42deg) scale(0.4);
+        opacity: 0;
+        filter: blur(1.5px);
+        pointer-events: none;
+      }
+    </style>
+  </defs>
+
+  <!-- Container Box -->
+  <rect width="900" height="185" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="1.2" />
+
+  <!-- Month Headers -->
+  <g fill="#7d8590" font-size="10" class="gh-text">
+    <text x="70" y="25">Nov</text>
+    <text x="142" y="25">Dec</text>
+    <text x="214" y="25">Jan</text>
+    <text x="286" y="25">Feb</text>
+    <text x="358" y="25">Mar</text>
+    <text x="430" y="25">Apr</text>
+    <text x="502" y="25">May</text>
+    <text x="574" y="25">Jun</text>
+    <text x="646" y="25">Jul</text>
+    <text x="718" y="25">Aug</text>
+    <text x="790" y="25">Sep</text>
+    <text x="836" y="25">Oct</text>
+  </g>
+
+  <!-- Day Labels -->
+  <g fill="#7d8590" font-size="9" class="gh-text">
+    <text x="36" y="53">Mon</text>
+    <text x="36" y="81">Wed</text>
+    <text x="36" y="109">Fri</text>
+  </g>
+
+  <!-- Interactive Contribution Matrix (Hover Cursor to Crumble/Runtuh) -->
+  <g>
+    <rect class="crumb-box" x="62" y="44" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="62" y="58" width="11" height="11" rx="2" fill="#006d32"  />
+    <rect class="crumb-box" x="62" y="72" width="11" height="11" rx="2" fill="#26a641"  />
+    <rect class="crumb-box" x="62" y="86" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="62" y="100" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="62" y="114" width="11" height="11" rx="2" fill="#006d32"  />
+    <rect class="crumb-box" x="62" y="128" width="11" height="11" rx="2" fill="#0e4429"  />
+    <rect class="crumb-box" x="77" y="44" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="77" y="58" width="11" height="11" rx="2" fill="#0e4429"  />
+    <rect class="crumb-box" x="77" y="72" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="77" y="86" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="77" y="100" width="11" height="11" rx="2" fill="#26a641"  />
+    <rect class="crumb-box" x="77" y="114" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="77" y="128" width="11" height="11" rx="2" fill="#39d353"  />
+    <rect class="crumb-box" x="92" y="44" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="92" y="58" width="11" height="11" rx="2" fill="#0e4429"  />
+    <rect class="crumb-box" x="92" y="72" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="92" y="86" width="11" height="11" rx="2" fill="#0e4429"  />
+    <rect class="crumb-box" x="92" y="100" width="11" height="11" rx="2" fill="#39d353"  />
+    <rect class="crumb-box" x="92" y="114" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="92" y="128" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="107" y="44" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="107" y="58" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="107" y="72" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="107" y="86" width="11" height="11" rx="2" fill="#26a641"  />
+    <rect class="crumb-box" x="107" y="100" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="107" y="114" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="107" y="128" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="122" y="44" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="122" y="58" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="122" y="72" width="11" height="11" rx="2" fill="#0e4429"  />
+    <rect class="crumb-box" x="122" y="86" width="11" height="11" rx="2" fill="#0e4429"  />
+    <rect class="crumb-box" x="122" y="100" width="11" height="11" rx="2" fill="#0e4429"  />
+    <rect class="crumb-box" x="122" y="114" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="122" y="128" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="137" y="44" width="11" height="11" rx="2" fill="#006d32"  />
+    <rect class="crumb-box" x="137" y="58" width="11" height="11" rx="2" fill="#006d32"  />
+    <rect class="crumb-box" x="137" y="72" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="137" y="86" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="137" y="100" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="137" y="114" width="11" height="11" rx="2" fill="#26a641"  />
+    <rect class="crumb-box" x="137" y="128" width="11" height="11" rx="2" fill="#006d32"  />
+    <rect class="crumb-box" x="152" y="44" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="152" y="58" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="152" y="72" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="152" y="86" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="152" y="100" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="152" y="114" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="152" y="128" width="11" height="11" rx="2" fill="#0e4429"  />
+    <rect class="crumb-box" x="167" y="44" width="11" height="11" rx="2" fill="#006d32"  />
+    <rect class="crumb-box" x="167" y="58" width="11" height="11" rx="2" fill="#39d353"  />
+    <rect class="crumb-box" x="167" y="72" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="167" y="86" width="11" height="11" rx="2" fill="#26a641"  />
+    <rect class="crumb-box" x="167" y="100" width="11" height="11" rx="2" fill="#39d353"  />
+    <rect class="crumb-box" x="167" y="114" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="167" y="128" width="11" height="11" rx="2" fill="#0e4429"  />
+    <rect class="crumb-box" x="182" y="44" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="182" y="58" width="11" height="11" rx="2" fill="#26a641"  />
+    <rect class="crumb-box" x="182" y="72" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="182" y="86" width="11" height="11" rx="2" fill="#0e4429"  />
+    <rect class="crumb-box" x="182" y="100" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="182" y="114" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="182" y="128" width="11" height="11" rx="2" fill="#0e4429"  />
+    <rect class="crumb-box" x="197" y="44" width="11" height="11" rx="2" fill="#26a641"  />
+    <rect class="crumb-box" x="197" y="58" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="197" y="72" width="11" height="11" rx="2" fill="#0e4429"  />
+    <rect class="crumb-box" x="197" y="86" width="11" height="11" rx="2" fill="#39d353"  />
+    <rect class="crumb-box" x="197" y="100" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="197" y="114" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="197" y="128" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="212" y="44" width="11" height="11" rx="2" fill="#26a641"  />
+    <rect class="crumb-box" x="212" y="58" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="212" y="72" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="212" y="86" width="11" height="11" rx="2" fill="#26a641"  />
+    <rect class="crumb-box" x="212" y="100" width="11" height="11" rx="2" fill="#006d32"  />
+    <rect class="crumb-box" x="212" y="114" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="212" y="128" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="227" y="44" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="227" y="58" width="11" height="11" rx="2" fill="#006d32"  />
+    <rect class="crumb-box" x="227" y="72" width="11" height="11" rx="2" fill="#39d353"  />
+    <rect class="crumb-box" x="227" y="86" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="227" y="100" width="11" height="11" rx="2" fill="#26a641"  />
+    <rect class="crumb-box" x="227" y="114" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="227" y="128" width="11" height="11" rx="2" fill="#26a641"  />
+    <rect class="crumb-box" x="242" y="44" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="242" y="58" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="242" y="72" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="242" y="86" width="11" height="11" rx="2" fill="#006d32"  />
+    <rect class="crumb-box" x="242" y="100" width="11" height="11" rx="2" fill="#39d353"  />
+    <rect class="crumb-box" x="242" y="114" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="242" y="128" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="257" y="44" width="11" height="11" rx="2" fill="#0e4429"  />
+    <rect class="crumb-box" x="257" y="58" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="257" y="72" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="257" y="86" width="11" height="11" rx="2" fill="#006d32"  />
+    <rect class="crumb-box" x="257" y="100" width="11" height="11" rx="2" fill="#26a641"  />
+    <rect class="crumb-box" x="257" y="114" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="257" y="128" width="11" height="11" rx="2" fill="#006d32"  />
+    <rect class="crumb-box" x="272" y="44" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="272" y="58" width="11" height="11" rx="2" fill="#39d353"  />
+    <rect class="crumb-box" x="272" y="72" width="11" height="11" rx="2" fill="#0e4429"  />
+    <rect class="crumb-box" x="272" y="86" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="272" y="100" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="272" y="114" width="11" height="11" rx="2" fill="#006d32"  />
+    <rect class="crumb-box" x="272" y="128" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="287" y="44" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="287" y="58" width="11" height="11" rx="2" fill="#006d32"  />
+    <rect class="crumb-box" x="287" y="72" width="11" height="11" rx="2" fill="#0e4429"  />
+    <rect class="crumb-box" x="287" y="86" width="11" height="11" rx="2" fill="#26a641"  />
+    <rect class="crumb-box" x="287" y="100" width="11" height="11" rx="2" fill="#0e4429"  />
+    <rect class="crumb-box" x="287" y="114" width="11" height="11" rx="2" fill="#26a641"  />
+    <rect class="crumb-box" x="287" y="128" width="11" height="11" rx="2" fill="#39d353"  />
+    <rect class="crumb-box" x="302" y="44" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="302" y="58" width="11" height="11" rx="2" fill="#0e4429"  />
+    <rect class="crumb-box" x="302" y="72" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="302" y="86" width="11" height="11" rx="2" fill="#0e4429"  />
+    <rect class="crumb-box" x="302" y="100" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="302" y="114" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="302" y="128" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="317" y="44" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="317" y="58" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="317" y="72" width="11" height="11" rx="2" fill="#0e4429"  />
+    <rect class="crumb-box" x="317" y="86" width="11" height="11" rx="2" fill="#006d32"  />
+    <rect class="crumb-box" x="317" y="100" width="11" height="11" rx="2" fill="#26a641"  />
+    <rect class="crumb-box" x="317" y="114" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="317" y="128" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="332" y="44" width="11" height="11" rx="2" fill="#006d32"  />
+    <rect class="crumb-box" x="332" y="58" width="11" height="11" rx="2" fill="#39d353"  />
+    <rect class="crumb-box" x="332" y="72" width="11" height="11" rx="2" fill="#0e4429"  />
+    <rect class="crumb-box" x="332" y="86" width="11" height="11" rx="2" fill="#006d32"  />
+    <rect class="crumb-box" x="332" y="100" width="11" height="11" rx="2" fill="#0e4429"  />
+    <rect class="crumb-box" x="332" y="114" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="332" y="128" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="347" y="44" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="347" y="58" width="11" height="11" rx="2" fill="#0e4429"  />
+    <rect class="crumb-box" x="347" y="72" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="347" y="86" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="347" y="100" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="347" y="114" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="347" y="128" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="362" y="44" width="11" height="11" rx="2" fill="#006d32"  />
+    <rect class="crumb-box" x="362" y="58" width="11" height="11" rx="2" fill="#006d32"  />
+    <rect class="crumb-box" x="362" y="72" width="11" height="11" rx="2" fill="#006d32"  />
+    <rect class="crumb-box" x="362" y="86" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="362" y="100" width="11" height="11" rx="2" fill="#26a641"  />
+    <rect class="crumb-box" x="362" y="114" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="362" y="128" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="377" y="44" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="377" y="58" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="377" y="72" width="11" height="11" rx="2" fill="#26a641"  />
+    <rect class="crumb-box" x="377" y="86" width="11" height="11" rx="2" fill="#006d32"  />
+    <rect class="crumb-box" x="377" y="100" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="377" y="114" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="377" y="128" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="392" y="44" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="392" y="58" width="11" height="11" rx="2" fill="#26a641"  />
+    <rect class="crumb-box" x="392" y="72" width="11" height="11" rx="2" fill="#39d353"  />
+    <rect class="crumb-box" x="392" y="86" width="11" height="11" rx="2" fill="#39d353"  />
+    <rect class="crumb-box" x="392" y="100" width="11" height="11" rx="2" fill="#0e4429"  />
+    <rect class="crumb-box" x="392" y="114" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="392" y="128" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="407" y="44" width="11" height="11" rx="2" fill="#0e4429"  />
+    <rect class="crumb-box" x="407" y="58" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="407" y="72" width="11" height="11" rx="2" fill="#26a641"  />
+    <rect class="crumb-box" x="407" y="86" width="11" height="11" rx="2" fill="#006d32"  />
+    <rect class="crumb-box" x="407" y="100" width="11" height="11" rx="2" fill="#006d32"  />
+    <rect class="crumb-box" x="407" y="114" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="407" y="128" width="11" height="11" rx="2" fill="#26a641"  />
+    <rect class="crumb-box" x="422" y="44" width="11" height="11" rx="2" fill="#006d32"  />
+    <rect class="crumb-box" x="422" y="58" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="422" y="72" width="11" height="11" rx="2" fill="#006d32"  />
+    <rect class="crumb-box" x="422" y="86" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="422" y="100" width="11" height="11" rx="2" fill="#006d32"  />
+    <rect class="crumb-box" x="422" y="114" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="422" y="128" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="437" y="44" width="11" height="11" rx="2" fill="#0e4429"  />
+    <rect class="crumb-box" x="437" y="58" width="11" height="11" rx="2" fill="#39d353"  />
+    <rect class="crumb-box" x="437" y="72" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="437" y="86" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="437" y="100" width="11" height="11" rx="2" fill="#0e4429"  />
+    <rect class="crumb-box" x="437" y="114" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="437" y="128" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="452" y="44" width="11" height="11" rx="2" fill="#39d353"  />
+    <rect class="crumb-box" x="452" y="58" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="452" y="72" width="11" height="11" rx="2" fill="#39d353"  />
+    <rect class="crumb-box" x="452" y="86" width="11" height="11" rx="2" fill="#26a641"  />
+    <rect class="crumb-box" x="452" y="100" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="452" y="114" width="11" height="11" rx="2" fill="#0e4429"  />
+    <rect class="crumb-box" x="452" y="128" width="11" height="11" rx="2" fill="#26a641"  />
+    <rect class="crumb-box" x="467" y="44" width="11" height="11" rx="2" fill="#26a641"  />
+    <rect class="crumb-box" x="467" y="58" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="467" y="72" width="11" height="11" rx="2" fill="#26a641"  />
+    <rect class="crumb-box" x="467" y="86" width="11" height="11" rx="2" fill="#006d32"  />
+    <rect class="crumb-box" x="467" y="100" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="467" y="114" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="467" y="128" width="11" height="11" rx="2" fill="#006d32"  />
+    <rect class="crumb-box" x="482" y="44" width="11" height="11" rx="2" fill="#0e4429"  />
+    <rect class="crumb-box" x="482" y="58" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="482" y="72" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="482" y="86" width="11" height="11" rx="2" fill="#26a641"  />
+    <rect class="crumb-box" x="482" y="100" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="482" y="114" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="482" y="128" width="11" height="11" rx="2" fill="#0e4429"  />
+    <rect class="crumb-box" x="497" y="44" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="497" y="58" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="497" y="72" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="497" y="86" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="497" y="100" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="497" y="114" width="11" height="11" rx="2" fill="#0e4429"  />
+    <rect class="crumb-box" x="497" y="128" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="512" y="44" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="512" y="58" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="512" y="72" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="512" y="86" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="512" y="100" width="11" height="11" rx="2" fill="#0e4429"  />
+    <rect class="crumb-box" x="512" y="114" width="11" height="11" rx="2" fill="#26a641"  />
+    <rect class="crumb-box" x="512" y="128" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="527" y="44" width="11" height="11" rx="2" fill="#26a641"  />
+    <rect class="crumb-box" x="527" y="58" width="11" height="11" rx="2" fill="#39d353"  />
+    <rect class="crumb-box" x="527" y="72" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="527" y="86" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="527" y="100" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="527" y="114" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="527" y="128" width="11" height="11" rx="2" fill="#26a641"  />
+    <rect class="crumb-box" x="542" y="44" width="11" height="11" rx="2" fill="#39d353"  />
+    <rect class="crumb-box" x="542" y="58" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="542" y="72" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="542" y="86" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="542" y="100" width="11" height="11" rx="2" fill="#26a641"  />
+    <rect class="crumb-box" x="542" y="114" width="11" height="11" rx="2" fill="#39d353"  />
+    <rect class="crumb-box" x="542" y="128" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="557" y="44" width="11" height="11" rx="2" fill="#39d353"  />
+    <rect class="crumb-box" x="557" y="58" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="557" y="72" width="11" height="11" rx="2" fill="#26a641"  />
+    <rect class="crumb-box" x="557" y="86" width="11" height="11" rx="2" fill="#0e4429"  />
+    <rect class="crumb-box" x="557" y="100" width="11" height="11" rx="2" fill="#006d32"  />
+    <rect class="crumb-box" x="557" y="114" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="557" y="128" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="572" y="44" width="11" height="11" rx="2" fill="#26a641"  />
+    <rect class="crumb-box" x="572" y="58" width="11" height="11" rx="2" fill="#39d353"  />
+    <rect class="crumb-box" x="572" y="72" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="572" y="86" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="572" y="100" width="11" height="11" rx="2" fill="#39d353"  />
+    <rect class="crumb-box" x="572" y="114" width="11" height="11" rx="2" fill="#39d353"  />
+    <rect class="crumb-box" x="572" y="128" width="11" height="11" rx="2" fill="#0e4429"  />
+    <rect class="crumb-box" x="587" y="44" width="11" height="11" rx="2" fill="#26a641"  />
+    <rect class="crumb-box" x="587" y="58" width="11" height="11" rx="2" fill="#26a641"  />
+    <rect class="crumb-box" x="587" y="72" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="587" y="86" width="11" height="11" rx="2" fill="#26a641"  />
+    <rect class="crumb-box" x="587" y="100" width="11" height="11" rx="2" fill="#26a641"  />
+    <rect class="crumb-box" x="587" y="114" width="11" height="11" rx="2" fill="#39d353"  />
+    <rect class="crumb-box" x="587" y="128" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="602" y="44" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="602" y="58" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="602" y="72" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="602" y="86" width="11" height="11" rx="2" fill="#0e4429"  />
+    <rect class="crumb-box" x="602" y="100" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="602" y="114" width="11" height="11" rx="2" fill="#006d32"  />
+    <rect class="crumb-box" x="602" y="128" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="617" y="44" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="617" y="58" width="11" height="11" rx="2" fill="#006d32"  />
+    <rect class="crumb-box" x="617" y="72" width="11" height="11" rx="2" fill="#006d32"  />
+    <rect class="crumb-box" x="617" y="86" width="11" height="11" rx="2" fill="#0e4429"  />
+    <rect class="crumb-box" x="617" y="100" width="11" height="11" rx="2" fill="#39d353"  />
+    <rect class="crumb-box" x="617" y="114" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="617" y="128" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="632" y="44" width="11" height="11" rx="2" fill="#006d32"  />
+    <rect class="crumb-box" x="632" y="58" width="11" height="11" rx="2" fill="#0e4429"  />
+    <rect class="crumb-box" x="632" y="72" width="11" height="11" rx="2" fill="#006d32"  />
+    <rect class="crumb-box" x="632" y="86" width="11" height="11" rx="2" fill="#26a641"  />
+    <rect class="crumb-box" x="632" y="100" width="11" height="11" rx="2" fill="#006d32"  />
+    <rect class="crumb-box" x="632" y="114" width="11" height="11" rx="2" fill="#006d32"  />
+    <rect class="crumb-box" x="632" y="128" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="647" y="44" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="647" y="58" width="11" height="11" rx="2" fill="#0e4429"  />
+    <rect class="crumb-box" x="647" y="72" width="11" height="11" rx="2" fill="#26a641"  />
+    <rect class="crumb-box" x="647" y="86" width="11" height="11" rx="2" fill="#39d353"  />
+    <rect class="crumb-box" x="647" y="100" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="647" y="114" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="647" y="128" width="11" height="11" rx="2" fill="#0e4429"  />
+    <rect class="crumb-box" x="662" y="44" width="11" height="11" rx="2" fill="#0e4429"  />
+    <rect class="crumb-box" x="662" y="58" width="11" height="11" rx="2" fill="#39d353"  />
+    <rect class="crumb-box" x="662" y="72" width="11" height="11" rx="2" fill="#006d32"  />
+    <rect class="crumb-box" x="662" y="86" width="11" height="11" rx="2" fill="#0e4429"  />
+    <rect class="crumb-box" x="662" y="100" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="662" y="114" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="662" y="128" width="11" height="11" rx="2" fill="#26a641"  />
+    <rect class="crumb-box" x="677" y="44" width="11" height="11" rx="2" fill="#26a641"  />
+    <rect class="crumb-box" x="677" y="58" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="677" y="72" width="11" height="11" rx="2" fill="#006d32"  />
+    <rect class="crumb-box" x="677" y="86" width="11" height="11" rx="2" fill="#39d353"  />
+    <rect class="crumb-box" x="677" y="100" width="11" height="11" rx="2" fill="#0e4429"  />
+    <rect class="crumb-box" x="677" y="114" width="11" height="11" rx="2" fill="#39d353"  />
+    <rect class="crumb-box" x="677" y="128" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="692" y="44" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="692" y="58" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="692" y="72" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="692" y="86" width="11" height="11" rx="2" fill="#39d353"  />
+    <rect class="crumb-box" x="692" y="100" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="692" y="114" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="692" y="128" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="707" y="44" width="11" height="11" rx="2" fill="#39d353"  />
+    <rect class="crumb-box" x="707" y="58" width="11" height="11" rx="2" fill="#39d353"  />
+    <rect class="crumb-box" x="707" y="72" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="707" y="86" width="11" height="11" rx="2" fill="#006d32"  />
+    <rect class="crumb-box" x="707" y="100" width="11" height="11" rx="2" fill="#26a641"  />
+    <rect class="crumb-box" x="707" y="114" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="707" y="128" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="722" y="44" width="11" height="11" rx="2" fill="#006d32"  />
+    <rect class="crumb-box" x="722" y="58" width="11" height="11" rx="2" fill="#006d32"  />
+    <rect class="crumb-box" x="722" y="72" width="11" height="11" rx="2" fill="#006d32"  />
+    <rect class="crumb-box" x="722" y="86" width="11" height="11" rx="2" fill="#0e4429"  />
+    <rect class="crumb-box" x="722" y="100" width="11" height="11" rx="2" fill="#26a641"  />
+    <rect class="crumb-box" x="722" y="114" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="722" y="128" width="11" height="11" rx="2" fill="#006d32"  />
+    <rect class="crumb-box" x="737" y="44" width="11" height="11" rx="2" fill="#006d32"  />
+    <rect class="crumb-box" x="737" y="58" width="11" height="11" rx="2" fill="#006d32"  />
+    <rect class="crumb-box" x="737" y="72" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="737" y="86" width="11" height="11" rx="2" fill="#26a641"  />
+    <rect class="crumb-box" x="737" y="100" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="737" y="114" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="737" y="128" width="11" height="11" rx="2" fill="#0e4429"  />
+    <rect class="crumb-box" x="752" y="44" width="11" height="11" rx="2" fill="#26a641"  />
+    <rect class="crumb-box" x="752" y="58" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="752" y="72" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="752" y="86" width="11" height="11" rx="2" fill="#26a641"  />
+    <rect class="crumb-box" x="752" y="100" width="11" height="11" rx="2" fill="#26a641"  />
+    <rect class="crumb-box" x="752" y="114" width="11" height="11" rx="2" fill="#0e4429"  />
+    <rect class="crumb-box" x="752" y="128" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="767" y="44" width="11" height="11" rx="2" fill="#006d32"  />
+    <rect class="crumb-box" x="767" y="58" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="767" y="72" width="11" height="11" rx="2" fill="#0e4429"  />
+    <rect class="crumb-box" x="767" y="86" width="11" height="11" rx="2" fill="#0e4429"  />
+    <rect class="crumb-box" x="767" y="100" width="11" height="11" rx="2" fill="#0e4429"  />
+    <rect class="crumb-box" x="767" y="114" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="767" y="128" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="782" y="44" width="11" height="11" rx="2" fill="#26a641"  />
+    <rect class="crumb-box" x="782" y="58" width="11" height="11" rx="2" fill="#006d32"  />
+    <rect class="crumb-box" x="782" y="72" width="11" height="11" rx="2" fill="#006d32"  />
+    <rect class="crumb-box" x="782" y="86" width="11" height="11" rx="2" fill="#006d32"  />
+    <rect class="crumb-box" x="782" y="100" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="782" y="114" width="11" height="11" rx="2" fill="#26a641"  />
+    <rect class="crumb-box" x="782" y="128" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="797" y="44" width="11" height="11" rx="2" fill="#39d353"  />
+    <rect class="crumb-box" x="797" y="58" width="11" height="11" rx="2" fill="#26a641"  />
+    <rect class="crumb-box" x="797" y="72" width="11" height="11" rx="2" fill="#26a641"  />
+    <rect class="crumb-box" x="797" y="86" width="11" height="11" rx="2" fill="#26a641"  />
+    <rect class="crumb-box" x="797" y="100" width="11" height="11" rx="2" fill="#26a641"  />
+    <rect class="crumb-box" x="797" y="114" width="11" height="11" rx="2" fill="#39d353"  />
+    <rect class="crumb-box" x="797" y="128" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="812" y="44" width="11" height="11" rx="2" fill="#006d32"  />
+    <rect class="crumb-box" x="812" y="58" width="11" height="11" rx="2" fill="#39d353"  />
+    <rect class="crumb-box" x="812" y="72" width="11" height="11" rx="2" fill="#26a641"  />
+    <rect class="crumb-box" x="812" y="86" width="11" height="11" rx="2" fill="#39d353"  />
+    <rect class="crumb-box" x="812" y="100" width="11" height="11" rx="2" fill="#39d353"  />
+    <rect class="crumb-box" x="812" y="114" width="11" height="11" rx="2" fill="#39d353"  />
+    <rect class="crumb-box" x="812" y="128" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="827" y="44" width="11" height="11" rx="2" fill="#006d32"  />
+    <rect class="crumb-box" x="827" y="58" width="11" height="11" rx="2" fill="#39d353"  />
+    <rect class="crumb-box" x="827" y="72" width="11" height="11" rx="2" fill="#26a641"  />
+    <rect class="crumb-box" x="827" y="86" width="11" height="11" rx="2" fill="#26a641"  />
+    <rect class="crumb-box" x="827" y="100" width="11" height="11" rx="2" fill="#26a641"  />
+    <rect class="crumb-box" x="827" y="114" width="11" height="11" rx="2" fill="#26a641"  />
+    <rect class="crumb-box" x="827" y="128" width="11" height="11" rx="2" fill="#39d353"  />
+    <rect class="crumb-box" x="842" y="44" width="11" height="11" rx="2" fill="#39d353"  />
+    <rect class="crumb-box" x="842" y="58" width="11" height="11" rx="2" fill="#006d32"  />
+    <rect class="crumb-box" x="842" y="72" width="11" height="11" rx="2" fill="#39d353"  />
+    <rect class="crumb-box" x="842" y="86" width="11" height="11" rx="2" fill="#006d32"  />
+    <rect class="crumb-box" x="842" y="100" width="11" height="11" rx="2" fill="#26a641"  />
+    <rect class="crumb-box" x="842" y="114" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+    <rect class="crumb-box" x="842" y="128" width="11" height="11" rx="2" fill="#006d32"  />
+  </g>
+
+  <!-- Legend & Bottom Hint -->
+  <g class="gh-text" font-size="10" fill="#7d8590">
+    <text x="36" y="162">Tip: Arahkan kursor ke atas kotak untuk melihat efek runtuh</text>
+    <g transform="translate(735, 152)">
+      <text x="-32" y="9" font-size="9.5">Less</text>
+      <rect x="0" y="0" width="10" height="10" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6" />
+      <rect x="14" y="0" width="10" height="10" rx="2" fill="#0e4429" />
+      <rect x="28" y="0" width="10" height="10" rx="2" fill="#006d32" />
+      <rect x="42" y="0" width="10" height="10" rx="2" fill="#26a641" />
+      <rect x="56" y="0" width="10" height="10" rx="2" fill="#39d353" />
+      <text x="72" y="9" font-size="9.5">More</text>
+    </g>
+  </g>
+</svg>
