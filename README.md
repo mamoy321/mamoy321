@@ -43,9 +43,7 @@
 
 ---
 
-### 🛠️ Skills &amp; Arsenal
-
-<div align="center">
+<div align="left">
   <p><b>Core Operating Systems &amp; Network Infrastructure</b></p>
   <a href="https://skillicons.dev">
     <picture>
@@ -177,11 +175,7 @@
 
 ---
 
-### 📬 Get In Touch &amp; Quick Action
-
 <div align="center">
-
-Tertarik berkolaborasi untuk proyek infrastruktur jaringan, administrasi server Linux, atau sistem informasi? Terhubung langsung melalui GitHub:
 
 <br/>
 
@@ -196,7 +190,6 @@ Tertarik berkolaborasi untuk proyek infrastruktur jaringan, administrasi server 
 <br/>
 <br/>
 
-<sub>Disusun dengan standar tata letak bersih dan arsitektur token modern • <b>Amirudin</b> • Lampung, Indonesia</sub>
 
 <br/>
 <br/>
