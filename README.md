@@ -6,7 +6,7 @@
 <br/>
 
 <a href="https://github.com/mamoy321">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=2800&pause=1000&color=38BDF8&center=true&vCenter=true&width=800&lines=%E2%96%B8+Linux+Sysadmin+%26+Network+Infrastructure+Specialist;%E2%96%B8+Debian+%2F+Ubuntu+Server+Hardening+%26+Orchestration;%E2%96%B8+MikroTik+RouterOS+%26+VLAN+Subnetting+Architecture;%E2%96%B8+FTTH+Fiber+Optic+Splicing+%26+Field+Telecom+Tech;%E2%96%B8+Information+Systems+Student+%E2%80%A2+Based+in+Ponorogo%2C+ID" alt="Amirudin Dynamic Typing Headline" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=2800&pause=1000&color=38BDF8&center=true&vCenter=true&width=800&lines=%E2%96%B8+Linux+Sysadmin+%26+Network+Infrastructure+Specialist;%E2%96%B8+Debian+%2F+Ubuntu+Server+Hardening+%26+Orchestration;%E2%96%B8+MikroTik+RouterOS+%26+VLAN+Subnetting+Architecture;%E2%96%B8+FTTH+Fiber+Optic+Splicing+%26+Field+Telecom+Tech;%E2%96%B8+Information+Systems+Student+%E2%80%A2+Based+in+Lampung%2C+ID" alt="Amirudin Dynamic Typing Headline" />
 </a>
 
 <br/>
@@ -14,8 +14,8 @@
 
 [![Status](https://img.shields.io/badge/System_Status-OPERATIONAL-10b981?style=flat-square&logo=linux&logoColor=white)](https://github.com/mamoy321)
 [![Focus](https://img.shields.io/badge/Domain-Sysadmin_%26_Networking-2563eb?style=flat-square&logo=serverfault&logoColor=white)](https://github.com/mamoy321)
-[![Location](https://img.shields.io/badge/Location-Ponorogo%2C_Indonesia-334155?style=flat-square&logo=googlemaps&logoColor=white)](https://maps.google.com)
-[![Email](https://img.shields.io/badge/Direct_Mail-amirudin311227%40gmail.com-0284c7?style=flat-square&logo=gmail&logoColor=white)](mailto:amirudin311227@gmail.com)
+[![Location](https://img.shields.io/badge/Location-Lampung%2C_Indonesia-334155?style=flat-square&logo=googlemaps&logoColor=white)](https://maps.google.com)
+[![GitHub](https://img.shields.io/badge/GitHub-mamoy321-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/mamoy321)
 
 </div>
 
@@ -32,10 +32,10 @@ amirudin@sysadmin-node:~$ neofetch --profile
      | () () |         OS          : Debian GNU/Linux / Ubuntu Server / RouterOS
       \  _  /          Kernel      : Linux 6.x LTS (x86_64)
        /   \           Role        : Linux System Administrator & Network Engineer
-      |     |          Education   : S1 Sistem Informasi (Ex-TKJ SMK PGRI 2 Ponorogo)
+      |     |          Education   : S1 Sistem Informasi (Lampung) • Ex-TKJ SMK PGRI 2 Ponorogo
      /       \         Shell       : bash / zsh / RouterOS CLI
     / /     \ \        Uptime      : 99.98% (Ready for Work & Collaborative Projects)
-   /_/       \_\       Location    : Ponorogo, Jawa Timur, Indonesia
+   /_/       \_\       Location    : Lampung, Indonesia
    ( \       / )       Services    : Nginx, BIND9, SSH, Systemd, Cron, FTTH
     \_\_..._/_/        Core Focus  : Server Infrastructure, Routing/Switching, ISP Tech
 ```
@@ -121,7 +121,7 @@ amirudin@sysadmin-node:~$ neofetch --profile
 <summary><b>🎓 3. Academic &amp; Vocational Background (Klik untuk membuka)</b></summary>
 <br/>
 
-* **Pendidikan Tinggi**: Mahasiswa Program Studi Sistem Informasi (Fokus integrasi infrastruktur IT dengan proses bisnis enterprise).
+* **Pendidikan Tinggi**: Mahasiswa Program Studi Sistem Informasi di Lampung (Fokus integrasi infrastruktur IT dengan sistem informasi).
 * **Pendidikan Menengah Kejuruan**: SMK PGRI 2 Ponorogo - Jurusan Teknik Komputer dan Jaringan (TKJ).
 * **Praktek Kerja Lapangan (PKL)**: Junior Network Technician (Penataan rak server, patch cord, crimping UTP/STP, pemeliharaan lab komputer).
 * **Pekerjaan Lapangan**: Teknisi Jaringan Internet (Mitra ISP / Penyedia Jasa Internet) menangani instalasi, splicing fiber optik, dan perbaikan gangguan koneksi.
@@ -155,21 +155,21 @@ amirudin@sysadmin-node:~$ neofetch --profile
 
 <div align="center">
 
-Silakan hubungi saya untuk kebutuhan instalasi infrastruktur jaringan, administrasi server Linux, konsultasi FTTH, atau kolaborasi proyek IT:
+Tertarik berkolaborasi untuk proyek infrastruktur jaringan, administrasi server Linux, atau sistem informasi? Terhubung langsung melalui GitHub:
 
 <br/>
 
-<a href="mailto:amirudin311227@gmail.com">
-  <img src="https://img.shields.io/badge/Email_Me-amirudin311227%40gmail.com-0284c7?style=for-the-badge&logo=gmail&logoColor=white" alt="Kirim Email" />
-</a>
-&nbsp;
 <a href="https://github.com/mamoy321">
   <img src="https://img.shields.io/badge/GitHub_Profile-mamoy321-181717?style=for-the-badge&logo=github&logoColor=white" alt="Profil GitHub" />
 </a>
+&nbsp;
+<a href="https://github.com/mamoy321?tab=repositories">
+  <img src="https://img.shields.io/badge/Repositories-Explore-2563eb?style=for-the-badge&logo=git&logoColor=white" alt="Lihat Repositori" />
+</a>
 
 <br/>
 <br/>
 
-<sub>Disusun dengan standar tata letak bersih dan arsitektur token modern • <b>Amirudin</b> • Ponorogo, Jawa Timur, Indonesia</sub>
+<sub>Disusun dengan standar tata letak bersih dan arsitektur token modern • <b>Amirudin</b> • Lampung, Indonesia</sub>
 
 </div>
