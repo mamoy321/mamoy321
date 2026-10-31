@@ -142,39 +142,6 @@
 
 ---
 
-### 📊 GitHub Activity
-
-<div align="center">
-  <table border="0">
-    <tr>
-      <td align="center" width="50%">
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=mamoy321&show_icons=true&theme=tokyonight&hide_border=true&bg_color=080d1a&title_color=38bdf8&text_color=94a3b8&icon_color=2563eb">
-          <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=mamoy321&show_icons=true&theme=default&hide_border=true&bg_color=ffffff&title_color=0284c7&text_color=334155&icon_color=0284c7">
-          <img src="https://github-readme-stats.vercel.app/api?username=mamoy321&show_icons=true&theme=tokyonight&hide_border=true&bg_color=080d1a&title_color=38bdf8&text_color=94a3b8&icon_color=2563eb" width="100%" alt="Statistik GitHub Amirudin" />
-        </picture>
-      </td>
-      <td align="center" width="50%">
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=mamoy321&layout=compact&theme=tokyonight&hide_border=true&bg_color=080d1a&title_color=38bdf8&text_color=94a3b8">
-          <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=mamoy321&layout=compact&theme=default&hide_border=true&bg_color=ffffff&title_color=0284c7&text_color=334155">
-          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mamoy321&layout=compact&theme=tokyonight&hide_border=true&bg_color=080d1a&title_color=38bdf8&text_color=94a3b8" width="100%" alt="Bahasa Pemrograman Paling Sering Digunakan" />
-        </picture>
-      </td>
-    </tr>
-  </table>
-  
-  <br/>
-  
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=mamoy321&theme=tokyonight&hide_border=true&background=080d1a&ring=38bdf8&fire=38bdf8&currStreakLabel=38bdf8">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=mamoy321&theme=default&hide_border=true&background=ffffff&ring=0284c7&fire=ea580c&currStreakLabel=0284c7">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=mamoy321&theme=tokyonight&hide_border=true&background=080d1a&ring=38bdf8&fire=38bdf8&currStreakLabel=38bdf8" width="70%" alt="GitHub Streak Stats" />
-  </picture>
-</div>
-
----
-
 <div align="center">
 
 <br/>
